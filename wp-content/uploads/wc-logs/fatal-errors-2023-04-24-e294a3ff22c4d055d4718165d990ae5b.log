@@ -1,0 +1,81 @@
+2023-04-24T22:40:09+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:41:20+00:00 CRITICAL Uncaught Error: Failed opening required '../storefont/inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:41:41+00:00 CRITICAL Uncaught Error: Failed opening required '../storefront/inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:41:53+00:00 CRITICAL Uncaught Error: Failed opening required './storefront/inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:42:54+00:00 CRITICAL Uncaught Error: Failed opening required '../storefront/inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:42:56+00:00 CRITICAL Uncaught Error: Failed opening required '../storefront/inc/class-storefront.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php:27
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php på rad 27
+
+2023-04-24T22:44:59+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\storefront-functions.php:28) i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-functions.php på rad 28
+
+2023-04-24T22:45:24+00:00 CRITICAL Uncaught Error: Class "Storefront_Customizer" not found in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\woocommerce\class-storefront-woocommerce-customizer.php:18
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\functions.php(42): require()
+#1 C:\xampp\htdocs\labb2-walid\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labb2-walid\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\labb2-walid\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\woocommerce\class-storefront-woocommerce-customizer.php på rad 18
+
+2023-04-24T22:50:07+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\storefront-functions.php:28) i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-functions.php på rad 28
+
+2023-04-24T22:50:12+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\storefront-functions.php:28) i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-functions.php på rad 28
+
+2023-04-24T22:50:13+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\storefront-functions.php:28) i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-functions.php på rad 28
+
+2023-04-24T22:52:02+00:00 CRITICAL Cannot redeclare storefront_get_content_background_color() (previously declared in C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\inc\storefront-functions.php:46) i C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-functions.php på rad 45
+

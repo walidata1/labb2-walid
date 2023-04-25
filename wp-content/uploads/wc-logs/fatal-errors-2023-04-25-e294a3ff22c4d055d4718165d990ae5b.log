@@ -1,0 +1,103 @@
+2023-04-25T14:47:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "replace_m_with_5" not found or invalid function name in C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(205): WP_Hook->apply_filters('Cart', Array)
+#1 C:\xampp\htdocs\labb2-walid\wp-includes\class-walker-page.php(205): apply_filters('the_title', 'Cart', 15)
+#2 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(147): Walker_Page->start_el('', Object(WP_Post), 0, Array, 0)
+#3 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#4 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1569): Walker->walk(Array, 0, Array, 0)
+#5 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1352): walk_page_tree(Array, 0, 0, Array)
+#6 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1484): wp_list_pages(Array)
+#7 C:\xampp\htdocs\labb2-walid\wp-includes\nav-menu-template.php(164): wp_page_menu(Array)
+#8 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-template-functions.php(246): wp_nav_menu(Object(stdClass))
+#9 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(308): storefront_primary_navigation('')
+#10 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\header.php(48): do_action('storefront_head...')
+#13 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#15 C:\xampp\htdocs\labb2-walid\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\woocommerce\archive-product.php(20): get_header('shop')
+#17 C:\xampp\htdocs\labb2-walid\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php på rad 310
+
+2023-04-25T14:47:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "replace_m_with_5" not found or invalid function name in C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(205): WP_Hook->apply_filters('Cart', Array)
+#1 C:\xampp\htdocs\labb2-walid\wp-includes\class-walker-page.php(205): apply_filters('the_title', 'Cart', 15)
+#2 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(147): Walker_Page->start_el('', Object(WP_Post), 0, Array, 0)
+#3 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#4 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1569): Walker->walk(Array, 0, Array, 0)
+#5 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1352): walk_page_tree(Array, 0, 0, Array)
+#6 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1484): wp_list_pages(Array)
+#7 C:\xampp\htdocs\labb2-walid\wp-includes\nav-menu-template.php(164): wp_page_menu(Array)
+#8 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-template-functions.php(246): wp_nav_menu(Object(stdClass))
+#9 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(308): storefront_primary_navigation('')
+#10 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\header.php(48): do_action('storefront_head...')
+#13 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#15 C:\xampp\htdocs\labb2-walid\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\woocommerce\archive-product.php(20): get_header('shop')
+#17 C:\xampp\htdocs\labb2-walid\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php på rad 310
+
+2023-04-25T15:33:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "replace_o_with_"\u{1F600}"" not found or invalid function name in C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(205): WP_Hook->apply_filters('Cart', Array)
+#1 C:\xampp\htdocs\labb2-walid\wp-includes\class-walker-page.php(205): apply_filters('the_title', 'Cart', 15)
+#2 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(147): Walker_Page->start_el('', Object(WP_Post), 0, Array, 0)
+#3 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#4 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1569): Walker->walk(Array, 0, Array, 0)
+#5 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1352): walk_page_tree(Array, 0, 0, Array)
+#6 C:\xampp\htdocs\labb2-walid\wp-includes\post-template.php(1484): wp_list_pages(Array)
+#7 C:\xampp\htdocs\labb2-walid\wp-includes\nav-menu-template.php(164): wp_page_menu(Array)
+#8 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\inc\storefront-template-functions.php(246): wp_nav_menu(Object(stdClass))
+#9 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(308): storefront_primary_navigation('')
+#10 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront\header.php(48): do_action('storefront_head...')
+#13 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\labb2-walid\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#15 C:\xampp\htdocs\labb2-walid\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\xampp\htdocs\labb2-walid\wp-content\themes\storefront-child\woocommerce\archive-product.php(20): get_header('shop')
+#17 C:\xampp\htdocs\labb2-walid\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php på rad 310
+
+2023-04-25T15:42:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "__return__false" not found or invalid function name in C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\xampp\htdocs\labb2-walid\wp-includes\admin-bar.php(1297): apply_filters('show_admin_bar', true)
+#2 C:\xampp\htdocs\labb2-walid\wp-includes\admin-bar.php(26): is_admin_bar_showing()
+#3 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(308): _wp_admin_bar_init('')
+#4 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\labb2-walid\wp-includes\template-loader.php(13): do_action('template_redire...')
+#7 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php på rad 308
+
+2023-04-25T15:42:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "__return__false" not found or invalid function name in C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\xampp\htdocs\labb2-walid\wp-includes\admin-bar.php(1297): apply_filters('show_admin_bar', true)
+#2 C:\xampp\htdocs\labb2-walid\wp-includes\admin-bar.php(26): is_admin_bar_showing()
+#3 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(308): _wp_admin_bar_init('')
+#4 C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\labb2-walid\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\labb2-walid\wp-includes\template-loader.php(13): do_action('template_redire...')
+#7 C:\xampp\htdocs\labb2-walid\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\labb2-walid\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\labb2-walid\wp-includes\class-wp-hook.php på rad 308
+
